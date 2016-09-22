@@ -146,10 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="easy_input.cpp" />
     <ClCompile Include="LibraryManager.cpp" />
     <ClCompile Include="publication_utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="controller.h" />
+    <ClInclude Include="easy_input.h" />
     <ClInclude Include="publication_utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
